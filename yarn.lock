@@ -33,19 +33,19 @@
     "@nodelib/fs.scandir" "2.1.5"
     "fastq" "^1.6.0"
 
-"@storyblok/js@^1.0.4":
-  "integrity" "sha512-ydcQ7FhTs95nY1NQI3V4pGS/gf2uWPG0pRvJRXwoRqTAISCX//1/GochPEXAgWkZU5KafmBppNp3tqhi8F1fHA=="
-  "resolved" "https://registry.npmjs.org/@storyblok/js/-/js-1.0.4.tgz"
-  "version" "1.0.4"
+"@storyblok/js@^1.8.6":
+  "integrity" "sha512-MpDhwfs+TBrnfQqr9z+z7SCLnvX6/jZKCasexEvVt0Qp+MvWD7IsQtBu6WnKboTjaR4VLFb69YTk+xUG/Roqgw=="
+  "resolved" "https://registry.npmjs.org/@storyblok/js/-/js-1.8.6.tgz"
+  "version" "1.8.6"
   dependencies:
-    "storyblok-js-client" "^4.2.0"
+    "storyblok-js-client" "^4.5.8"
 
-"@storyblok/react@^1.0.3":
-  "integrity" "sha512-40dA9joHaebifjeBr9kwCxMpb27JLH32pMo3IqLqpsnHOn1qzJV6sOS2OjqqaQZeQYxI0mFZecdMdciqvvWwgQ=="
-  "resolved" "https://registry.npmjs.org/@storyblok/react/-/react-1.0.3.tgz"
-  "version" "1.0.3"
+"@storyblok/react@^1.0.12":
+  "integrity" "sha512-wdGTwEIICruicd+SXlLuSoE9T17c73cXFd3WotyMdYUpfdjhx6iWFNrBt53AnOz4Z8RVYgayA8h5/i6qZQzLWg=="
+  "resolved" "https://registry.npmjs.org/@storyblok/react/-/react-1.3.3.tgz"
+  "version" "1.3.3"
   dependencies:
-    "@storyblok/js" "^1.0.4"
+    "@storyblok/js" "^1.8.6"
 
 "@tailwindcss/line-clamp@^0.4.0":
   "integrity" "sha512-HQZo6gfx1D0+DU3nWlNLD5iA6Ef4JAXh0LeD8lOGrJwEDBwwJNKQza6WoXhhY1uQrxOuU8ROxV7CqiQV4CoiLw=="
@@ -504,7 +504,7 @@
   "resolved" "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz"
   "version" "5.1.1"
 
-"react-dom@^17.0.2 || ^18.0.0-0", "react-dom@17.0.2":
+"react-dom@^17.0.0 || ^18.0.0", "react-dom@^17.0.2 || ^18.0.0-0", "react-dom@17.0.2":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -513,7 +513,7 @@
     "object-assign" "^4.1.1"
     "scheduler" "^0.20.2"
 
-"react@^16.8.0 || ^17.0.0", "react@^17.0.2 || ^18.0.0-0", "react@>= 16.8.0 || 17.x.x || 18.x.x", "react@>=16.0.0", "react@17.0.2":
+"react@^16.8.0 || ^17.0.0", "react@^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@>= 16.8.0 || 17.x.x || 18.x.x", "react@>=16.0.0", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
@@ -562,7 +562,7 @@
   "resolved" "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
   "version" "1.0.2"
 
-"storyblok-js-client@^4.2.0":
+"storyblok-js-client@^4.5.8":
   "integrity" "sha512-0Wp7Kn4RdKaKRgMmNDu8c6OC81x1mgeri4ziKDY9BsUZEIGLTNw8KFIWlHYACgMnJQn/6qZaV9kGo8IY4hv6GA=="
   "resolved" "https://registry.npmjs.org/storyblok-js-client/-/storyblok-js-client-4.5.8.tgz"
   "version" "4.5.8"
