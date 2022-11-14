@@ -8,10 +8,10 @@ import {
 } from "@storyblok/react";
 import Layout from "../components/Layout";
 
-export default function Home({ story }) {
+export default function Home({ story, preview }) {
   story = useStoryblokState(story, {
     resolveRelations: ["popular-articles.articles"],
-  });
+  }, preview);
 
   return (
     <div>
@@ -30,7 +30,7 @@ export default function Home({ story }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getStaticProps({preview}) {
   let slug = "home";
 
   let sbParams = {
@@ -44,6 +44,7 @@ export async function getStaticProps() {
     props: {
       story: data ? data.story : false,
       key: data ? data.story.id : false,
+      preview: preview || false
     },
     revalidate: 3600,
   };
